@@ -40,7 +40,7 @@ img{
 
 .container-menu {
     width: 1140px;
-    height: auto;
+    height: 100%;
     /* background: red; */
     margin: auto;
     
@@ -134,4 +134,65 @@ ul.sub-menu {
 
 ul.column-pashapashi {
     column-count: 2;
+    margin-top: 15px;
+}
+
+ul.column-pashapashi li:before {
+    content: '>';
+    padding-right: 10px;
+    font-size: 18px;
+}
+.address-details {
+    margin-top: 15px;
+}
+.social-icons a {
+    color: white;
+}
+.icon-social {
+    background: #3b5998;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.container-menu {
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.social-icons {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+.fb-icon {
+    background: blue;
+}
+
+.social-icon-masud {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.twitter-icon {
+    background: black;
+}
+.instagram-icon {
+    background: #DD2A7B;
+}
+.youtube-icon {
+    background: red;
 }
