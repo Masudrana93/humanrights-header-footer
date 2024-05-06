@@ -184,7 +184,7 @@ ul.column-pashapashi li:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .twitter-icon {
@@ -196,3 +196,31 @@ ul.column-pashapashi li:before {
 .youtube-icon {
     background: red;
 }
+
+ul.column-pashapashi li a:hover {
+    text-decoration: underline;
+}
+.chairman-photo.col-md-3 {
+    width: 280px;
+    height: 372px;
+    border: 1px solid black;
+}
+
+.about-us-info.col-md-6,
+.chairman-sms.col-md-9 {
+    text-align: justify;
+}
+.about-us.col-md-12 {
+    display: flex;
+    align-items: center;
+}
+.about-us-info.col-md-6 {
+    padding-left: 20px;
+}
+h4.about-us-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
